@@ -1,0 +1,39 @@
+.messenger-container {
+  /* height: 500px; */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  padding: 12px 16px;
+  border-radius: 20px;
+  margin: 8px 0;
+  max-width: 70%;
+  font-size: 14px;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.incoming {
+  background-color: #e0e0e0;
+  align-self: flex-start;
+  color: #333;
+}
+
+.outgoing {
+  background-color: #007aff;
+  color: white;
+  align-self: flex-end;
+}
+
+.loading {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
